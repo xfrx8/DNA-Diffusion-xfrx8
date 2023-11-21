@@ -5,7 +5,7 @@ from dnadiffusion.models.diffusion import Diffusion
 from dnadiffusion.models.unet import UNet
 from dnadiffusion.utils.train_util import TrainLoop
 
-
+# xfrx8
 def train():
     accelerator = Accelerator(split_batches=True, log_with=["wandb"], mixed_precision="bf16")
 
